@@ -1,6 +1,5 @@
 package ru.netology.service;
 
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -19,7 +18,6 @@ class CashbackHackServiceTestJUnitJupiter {
         assertEquals(expected, actual);
     }
 
-    @Disabled
     @Test
     void remain1000() {
         CashbackHackService service = new CashbackHackService();
